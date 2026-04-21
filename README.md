@@ -1,15 +1,15 @@
-# Lab 6: Encoder-Decoder Sequence-to-Sequence Models
+# Encoder-Decoder Sequence-to-Sequence Models
 
-A comprehensive implementation of sequence-to-sequence (Seq2Seq) models using LSTM-based Encoder-Decoder architectures for Machine Translation and Text Summarization.
+A comprehensive implementation of sequence-to-sequence (Seq2Seq) models that I built for my Advanced Topics in ML course using LSTM-based Encoder-Decoder architectures for Machine Translation and Text Summarization.
 
-## 🚀 Project Overview
+##  Project Overview
 This repository contains four main tasks exploring different applications of Encoder-Decoder models:
 - **Task 1:** English to Hindi translation using the Hindi-English Truncated Corpus.
 - **Task 2:** Evaluation of Task 1 using BLEU scores and qualitative analysis.
 - **Task 3:** English to Spanish translation using the `opus_books` dataset.
 - **Task 4:** Abstractive Text Summarization using the `XSum` dataset.
 
-## 📁 File Structure
+##  File Structure
 - `task1_eng_hindi.py`: Training script for EN-HI translation.
 - `task2_evaluate.py`: Evaluation and metrics calculation for EN-HI.
 - `task3_eng_spanish.py`: Training script for EN-ES translation.
@@ -17,7 +17,7 @@ This repository contains four main tasks exploring different applications of Enc
 - `streamlit_app.py`: Interactive Streamlit dashboard to test all models.
 - `requirements.txt`: Python dependencies.
 
-## 🛠️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Install Dependencies
 ```bash
@@ -39,12 +39,12 @@ Once models are trained (`.keras` and `.pkl` files are generated), run the Strea
 streamlit run streamlit_app.py
 ```
 
-## 📊 Sample Results
+##  Sample Results
 The models use:
 - **Architecture**: LSTM-based Encoder-Decoder with Embedding layers and Softmax output.
 - **Optimization**: Adam optimizer with Sparse Categorical Crossentropy loss.
 - **Monitoring**: Early stopping and training/validation plots.
 
-## 📝 Note
+##  Note
 Large model files (`.keras`) and dataset files (`.csv`) are ignored by Git to keep the repository lightweight. Use the training scripts to regenerate them locally.
 
