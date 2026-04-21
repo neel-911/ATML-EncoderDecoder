@@ -1,0 +1,76 @@
+# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Streamlit
+.streamlit/
+
+# Data and caches - ignore large project data and caches
+data/
+datasets/
+dataset/
+raw_data/
+processed_data/
+cache/
+.cache/
+
+# Models, checkpoints, and weights
+models/
+model/
+saved_models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.h5
+*.onnx
+*.tflite
+*.pb
+
+# Hugging Face / datasets local caches (project-level)
+.hf/
+.hf_cache/
+transformers_cache/
+huggingface/
+
+# MLflow / wandb
+mlruns/
+wandb/
+
+# Archives and large artifacts
+*.zip
+*.tar.gz
+*.tar
+*.gz
+
+# Misc
+*.sqlite
+
+# If you use Git LFS, add large binary patterns to .gitattributes instead
