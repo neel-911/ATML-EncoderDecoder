@@ -1,9 +1,0 @@
-tensorflow-macos
-tensorflow-metal
-numpy
-pandas
-matplotlib
-nltk
-datasets
-streamlit
-scikit-learn
